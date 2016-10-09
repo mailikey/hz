@@ -1,4 +1,14 @@
 .hyi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-align-items: center;
+    align-items: center;
+}
+.hyi img {
+    margin-left: 20px;
+}
+
+.hyi img:first-child{
+    margin-left:0;
 }
